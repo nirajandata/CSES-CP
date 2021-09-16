@@ -1,2 +1,2 @@
-# CSES-CP
-lists of all solutions of cses cp
+# CSES
+` i will try to solve task from cses site : https://cses.fi/problemset`
