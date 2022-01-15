@@ -4,7 +4,10 @@ int main(){
 	int n;
 	cin >> n;
 	for(int i=1;i<=n;i++){
-		cout <<(i*i*(i*i-1))/2-4*(i-1)*(i-2) << endl;
+		long long val=4*(i-1)*(i-2);
+		long long fi=i*i;
+		long long la=fi*(fi-1)/2;
+		cout << la-val << endl;
 	}
 	return 0;
 }
